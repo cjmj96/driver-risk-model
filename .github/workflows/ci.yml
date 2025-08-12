@@ -14,4 +14,4 @@ jobs:
           version: "0.7.1"
       
       - name: Install PRODUCTION dependencies
-        run: uv pip install -r requirements.txt
+        run: uv pip install --system -r requirements.txt
